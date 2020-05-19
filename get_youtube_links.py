@@ -71,5 +71,5 @@ def get_links_from_channel(channel_id):
 
 if __name__ == '__main__':
     channel = get_channel_id(config.youtube_channel_name)
-    # print(channel)
+    print(channel)
     get_links_from_channel(channel)
